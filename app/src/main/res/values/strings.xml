@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">fanyulong</string>
+    <string name="hero_name">撼地者 Earthshaker</string>
+    <string name="hero_type1">力量型 辅助</string>
+    <string name="hero_type2">近战 控制 爆发</string>
+
+    <string name="button1">英雄介绍</string>
+    <string name="button2">英雄技能</string>
+    <string name="button3">英雄分析</string>
+    <string name="button4">英雄出装</string>
+    <string name="button5">英雄加点</string>
+    <string name="button6">英雄问答</string>
+
+    <string name="skill1_name">沟壑</string>
+    <string name="skill1_cd">伤害类型:魔法    冷却时间:15s</string>
+    <string name="skill1_lv">等级1 - 造成110点伤害，1秒眩晕。\n等级2 - 造成160点伤害，1.25秒眩晕。\n等级3 - 造成210点伤害，1.5秒眩晕。\n等级4 - 造成260点伤害，1.75秒眩晕。</string>
+    <string name="skill1_introduce">用图腾震撼大地，制造一条直线沟壑，对作用范围内的敌人造成伤害和眩晕，沟壑持续期间地面单位无法穿过沟壑。</string>
+
+    <string name="skill2_name">强化图腾</string>
+    <string name="skill2_cd">伤害类型:无    冷却时间:5s</string>
+    <string name="skill2_lv" formatted="false">等级1 - 增加100%的基础攻击力。\n等级2 - 增加200%的基础攻击力。\n等级3 - 增加300%的基础攻击力。\n等级4 - 增加400%的基础攻击力。</string>
+    <string name="skill2_introduce">百分比增加的攻击力仅计算撼地者的基础攻击力（即由属性提供的攻击力），由物品、双倍神符、其他技能直接提供的攻击力不参与加成。</string>
+
+    <string name="skill3_name">余震</string>
+    <string name="skill3_cd">伤害类型:无    冷却时间:无</string>
+    <string name="skill3_lv">等级1：造成50点的额外伤害，晕眩0.6秒。\n等级2：造成75点的额外伤害，晕眩0.9秒。\n等级3：造成100点的额外伤害，晕眩1.2秒。\n等级4：造成125点的额外伤害，晕眩1.5秒。</string>
+    <string name="skill3_introduce">使撼地者脚下的大地颤抖，当撼地者使用自己的技能时，他附近敌人会受到眩晕和伤害。</string>
+
+    <string name="skill4_name">回音击</string>
+    <string name="skill4_cd">伤害类型:魔法  CD:150/130/110s</string>
+    <string name="skill4_lv">等级1 - 造成160点的伤害，震波每次弹射造成额外的40点的伤害。\n等级2 - 造成210点的伤害，震波每次弹射造成额外的55点的伤害。\n等级3 - 造成270点的伤害，震波每次弹射造成额外的70点的伤害。</string>
+    <string name="skill4_introduce">穿过地面的冲击波，伤害敌方单位。每个受到攻击的敌人都会引起伤害附近单位的反射波。 可用神杖升级。</string>
+
+    <string name="equipment0">"     ES作为靠技能吃饭的英雄，蓝量的充足是选择装备时的第一要务；拥有跳刀获得强大先手与反先手能力之后，微光绿杖风杖都是保命的神器.</string>
+    <string name="equipment1">"     这种出装比较适合中单的神牛，但是有两个前提，现在中单的可以说都是Dota中的“恶魔”，不是技能imba就是弹道好的要死，所以这么出装是为了让神牛能多释放一两个一技能，尽可能的多补一些钱。因为自带眩晕技能，如果留一个一技能的蓝是应该不会被单杀的。</string>
+    <string name="equipment2">"     撼地者多数情况下要作为辅助，所以装备往往不会太好。小件中，大魔棒对撼地者的帮助最大。</string>
+    <string name="equipment3">"     秘法鞋不多说，五号位的辅助前期买鞋都是问题，更何况还要变鸟买眼睛。所以变成秘法鞋之后就是为了跳刀考虑了，如果有了跳刀那就不是普通的撼地者，那是纯正的神牛了，所以这个装备是神牛甚至是到了后期的选择。</string>
+    <string name="equipment4">"     这套装备可以算是撼地者的神级配套了，首先跳刀不能少，因为你是一个团战的发动者。当你跳进去开始释放技能的时候你的队友也跟上来了，所以出个笛子能让你不被第一时间秒掉。虽然有西瓦这些装备撑属性，但是如果你都这身装备了，对方后期的装备更不用说了，一样可以秒掉你。</string>
+
+    <string name="skill_learn">"    这种加点方式比较常见，而且是可以随机变化的。先从路人战来说，每个用神牛的人都多想用一技能，按照这样的加点能够很好让你多释放一到两个一技能，同时如果你被对方英雄贴身追击，你还能用一技能配合三级能的被动让对方眩晕很久。当然有人会说我住加一技能的，当然可以，因为三级能需要你贴身才有效果，如果打一些比较正规的对黑局或者CW，主加一技能就需要每一个F一定要打到人，这样才能让自己的伤害最大化。因为在比赛中，神牛会保护后期，所以挂机牛很多，自己的等级不会很高，这就要求每一个技能都要释放的有伤害性，所以主一技能也是可以的。</string>
+    
+    <string name="配合英雄1">"      大小牛的组合早就成为一对非常IMBA的组合，大牛的裂地沟壑配合小牛的沟壑使大量敌人难以规避，而大牛的光环可被先祖灵魂继承，对于ES的AOE伤害是非常可观的提升。</string>
+    <string name="配合英雄2">"      作为阵容百搭的英雄，ES同很多英雄都能形成强大组合；前期没有跳刀的情况下，ES可以在远距离为小狗提供留人、反手和消耗，小狗甚至可以上去就咬。拥有跳刀做先手之后，小狗利用大招也可以瞬间切入战场，形成强大AOE。</string>
+    
+    
+    <string name="hero_background1">"       和傀儡以及石像鬼类似，撼地者也曾经是大地的一部分，他能自由地行走在地面上。不同于那些实体的存在，撼地者自身的意志创造了他，他不需要服从于任何主人。在岩石深处不安宁的沉睡中，他感到了上方世界自由自在的生命的存在。他对此产生了好奇心。</string>
+    <string name="hero_background2">"       在一个地震多发的时期，尼西埃雪山摇动的山顶发生了雪崩，河流的流径改变了，浅浅的山谷变成了深不可测的深渊。大地停止震动后，撼地者从沉淀的灰土中走了出来，像脱下毯子一样抖落无数岩石。他幻化成他想像中的野兽的外形，并自称雷格石蹄。血液在他身体里流动、他呼吸着空气、所以也会死亡。但他的精神仍然与大地同在，他的力量在那根永不离身的魔力图腾中。当他回归尘土的那天，大地仍会欢迎这个浪子回家。</string>
+</resources>

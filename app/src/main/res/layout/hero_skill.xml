@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/skill1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/skill1" />
+
+            <TextView
+                android:id="@+id/skill1_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/skill1"
+                android:text="@string/skill1_name"
+                android:textColor="#3f51b5"
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/skill1_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/skill1_name"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="3dp"
+                android:layout_toRightOf="@id/skill1"
+                android:text="主动技能"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/skill1_cd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/skill1"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/skill1"
+                android:paddingBottom="2dp"
+                android:text="@string/skill1_cd"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/skill1_introduce"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/skill1"
+                android:layout_marginTop="8dp"
+                android:text="@string/skill1_introduce" />
+
+            <TextView
+                android:id="@+id/skill1_lv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/skill1_introduce"
+                android:layout_marginTop="8dp"
+                android:text="@string/skill1_lv" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#9e9e9e" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/skill2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/skill2" />
+
+            <TextView
+                android:id="@+id/skill2_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/skill2"
+                android:text="@string/skill2_name"
+                android:textColor="#3f51b5"
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/skill2_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/skill2_name"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="3dp"
+                android:layout_toRightOf="@id/skill2"
+                android:text="主动技能"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/skill2_cd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/skill2"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/skill2"
+                android:paddingBottom="2dp"
+                android:text="@string/skill2_cd"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/skill2_introduce"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/skill2"
+                android:layout_marginTop="8dp"
+                android:text="@string/skill2_introduce" />
+
+            <TextView
+                android:id="@+id/skill2_lv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/skill2_introduce"
+                android:layout_marginTop="8dp"
+                android:text="@string/skill2_lv" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#9e9e9e" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/skill3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/skill3" />
+
+            <TextView
+                android:id="@+id/skill3_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/skill3"
+                android:text="@string/skill3_name"
+                android:textColor="#3f51b5"
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/skill3_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/skill3_name"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="3dp"
+                android:layout_toRightOf="@id/skill3"
+                android:text="被动技能"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/skill3_cd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/skill3"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/skill3"
+                android:paddingBottom="2dp"
+                android:text="@string/skill3_cd"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/skill3_introduce"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/skill3"
+                android:layout_marginTop="8dp"
+                android:text="@string/skill3_introduce" />
+
+            <TextView
+                android:id="@+id/skill3_lv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/skill3_introduce"
+                android:layout_marginTop="8dp"
+                android:text="@string/skill3_lv" />
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#9e9e9e" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/skill4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/skill4" />
+
+            <TextView
+                android:id="@+id/skill4_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/skill4"
+                android:text="@string/skill4_name"
+                android:textColor="#3f51b5"
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/skill4_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/skill4_name"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="3dp"
+                android:layout_toRightOf="@id/skill4"
+                android:text="主动技能"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/skill4_cd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/skill4"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/skill4"
+                android:paddingBottom="2dp"
+                android:text="@string/skill4_cd"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/skill4_introduce"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/skill4"
+                android:layout_marginTop="8dp"
+                android:text="@string/skill4_introduce" />
+
+            <TextView
+                android:id="@+id/skill4_lv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/skill4_introduce"
+                android:layout_marginTop="8dp"
+                android:text="@string/skill4_lv" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3f51b5"
+            android:paddingTop="16dp"
+            android:paddingBottom="24dp"
+            android:paddingLeft="8dp">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="130dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/es" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="24dp"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/hero_name"
+                    android:textColor="#ff9800"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:text="@string/hero_type1"
+                    android:textColor="#ffffff"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:text="@string/hero_type2"
+                    android:textColor="#ffffff"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    style="@style/ButtonStyle"
+                    android:id="@+id/button1"
+                    android:text="@string/button1" />
+
+                <Button
+                    style="@style/ButtonStyle"
+                    android:id="@+id/button2"
+                    android:text="@string/button2" />
+
+                <Button
+                    style="@style/ButtonStyle"
+                    android:id="@+id/button3"
+                    android:text="@string/button3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    style="@style/ButtonStyle"
+                    android:id="@+id/button4"
+                    android:text="@string/button4" />
+
+                <Button
+                    style="@style/ButtonStyle"
+                    android:id="@+id/button5"
+                    android:text="@string/button5" />
+
+                <Button
+                    style="@style/ButtonStyle"
+                    android:id="@+id/button6"
+                    android:text="@string/button6" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

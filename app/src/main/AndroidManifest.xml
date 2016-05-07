@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.studyjams.s1.sj17.fanyulong">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="Dota2 撼地者">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HeroIntro"
+            android:label="英雄介绍">
+
+        </activity>
+        <activity
+            android:name=".HeroSkill"
+            android:label="英雄技能">
+
+        </activity>
+        <activity
+            android:name=".HeroEquipment"
+            android:label="英雄出装">
+
+        </activity>
+        <activity
+            android:name=".HeroSkillLearn"
+            android:label="英雄加点">
+
+        </activity>
+        <activity
+            android:name=".HeroQuest"
+            android:label="英雄问答">
+
+        </activity>
+        <activity
+            android:name=".HeroAnalyse"
+            android:label="英雄分析">
+
+        </activity>
+    </application>
+
+</manifest>

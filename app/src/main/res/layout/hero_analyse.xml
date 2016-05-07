@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:text="配合英雄推荐："
+            android:textColor="#3f51b5"
+            android:textSize="25sp" />
+
+        <cn.studyjams.s1.sj17.fanyulong.ListViewForScrollView
+            android:id="@+id/list_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </cn.studyjams.s1.sj17.fanyulong.ListViewForScrollView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:text="克制英雄推荐："
+            android:textColor="#3f51b5"
+            android:textSize="25sp" />
+
+        <cn.studyjams.s1.sj17.fanyulong.ListViewForScrollView
+            android:id="@+id/list_view2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </cn.studyjams.s1.sj17.fanyulong.ListViewForScrollView>
+
+
+    </LinearLayout>
+</ScrollView>

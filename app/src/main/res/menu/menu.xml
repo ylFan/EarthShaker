@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/to_hero_introduce"
+        android:title="英雄介绍">
+    </item>
+
+    <item
+        android:id="@+id/to_hero_skill"
+        android:title="英雄技能">
+    </item>
+
+    <item
+        android:id="@+id/to_hero_analyse"
+        android:title="英雄分析">
+    </item>
+
+    <item
+        android:id="@+id/to_hero_equipment"
+        android:title="英雄出装">
+    </item>
+
+    <item
+        android:id="@+id/to_hero_learn"
+        android:title="英雄加点">
+    </item>
+
+    <item
+        android:id="@+id/to_hero_quest"
+        android:title="英雄问答">
+    </item>
+    <item
+        android:id="@+id/quit"
+        android:title="退出">
+    </item>
+</menu>
